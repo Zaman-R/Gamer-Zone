@@ -158,7 +158,6 @@ body {
     border: 0;
     color: white;
     font-size: 20px;
-    font-family: Work Sans;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -204,7 +203,7 @@ body {
 .games-images {
     padding: 1rem;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 
@@ -345,6 +344,7 @@ body {
 
 
 /* Footer */
+
 .footer {
     padding-top: 5%;
     background: #0B0223;
@@ -401,3 +401,38 @@ body {
     gap: 50px;
 }
 
+@media screen and (max-width: 425px){
+
+    .navbar_container, .navbars, .banner,.banner-left, .online-title,.games-cards,
+    .games-images{
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+    .games-images{
+        padding-right: 100px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+
+    .online-title{
+        width: 180px;
+
+    }
+    .navbars{
+        justify-content: center;
+        align-items: center;
+        padding-left: 20%;
+    }
+    .writting{
+        padding: 150px 150px 150px 100px;
+    }
+
+
+
+
+
+
+
+}
