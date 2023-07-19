@@ -1,15 +1,11 @@
-:root {
-    --text-size: 1rem;
-}
-
-
-
 * {
     margin: 0;
     padding: 0;
 }
 
 body {
+    width: 100%;
+    height: 100%;
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
@@ -190,7 +186,6 @@ body {
 #funny {
     color: #F948B2;
     font-size: 3rem;
-    font-family: Work Sans;
     font-weight: 700;
     word-wrap: break-word
 }
@@ -220,22 +215,29 @@ body {
     font-weight: 500;
     line-height: 30px;
     padding-top: 1rem;
-    justify-content: space-around;
+    margin-left: 5%;
+    width: 90%;
 }
 
-/* .gcd1{
-    padding-left: 3.5rem;
-}
-.gcd2{
-    padding-left: 4.3rem;
-}
-.gcd3{
-    padding-left: 6.4rem;
+
+
+.img:hover .overlay {
+    opacity: 1;
 }
 
-.gcd4 {
-    padding-left: 13.5rem;
-} */
+.gcd1 {
+    padding-right: 3.5rem;
+}
+
+.gcd2 {
+    padding-right: 8.5rem;
+}
+
+.gcd3 {
+    padding-right: 8rem;
+}
+
+
 
 
 
@@ -298,11 +300,12 @@ body {
 
 /* games section  */
 
-.games-section{
+.games-section {
     margin-top: 20rem;
 
 }
-.game{
+
+.game {
     display: flex;
     text-align: center;
     align-items: center;
@@ -312,7 +315,8 @@ body {
     gap: 6%;
     width: 20%;
 }
-.games-section .all-games{
+
+.games-section .all-games {
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10%;
@@ -323,12 +327,13 @@ body {
     row-gap: 1rem;
     /* gap: 1px; */
 }
-.g-name{}
-.game img{
+
+.game img {
     width: 50px;
     height: auto;
 }
-.game:hover{
+
+.game:hover {
     border: 1px solid #FF42A5;
     background: #FF42A5;
     background-clip: text;
@@ -338,4 +343,61 @@ body {
     width: 17%;
 }
 
+
+/* Footer */
+.footer {
+    padding-top: 5%;
+    background: #0B0223;
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+.foot-images{
+    display: flex;
+    padding:2rem;
+    gap: 1%;
+    justify-content: center;
+}
+.footer-title{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.footer-title {
+    width: fit-content;
+    margin: 30px auto;
+    padding-bottom: 20px;
+}
+
+.gamer {
+    color: white;
+    font-size: 45px;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.footer-text {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer > ul {
+    margin: 20px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
 
