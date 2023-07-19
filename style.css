@@ -141,7 +141,8 @@ body {
     word-wrap: break-word;
     padding: 3px;
 }
-.btns{
+
+.btns {
     padding: 40px 0px;
     display: flex;
     justify-content: space-between;
@@ -166,6 +167,75 @@ body {
     text-transform: uppercase;
 }
 
-.btn2{
+.btn2 {
     background: #4EC5F7;
 }
+
+
+/* Online games section */
+
+.online-games {
+    padding: 7.5rem;
+    justify-content: center;
+}
+
+.online-title {
+    text-align: center;
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+#funny {
+    color: #F948B2;
+    font-size: 3rem;
+    font-family: Work Sans;
+    font-weight: 700;
+    word-wrap: break-word
+}
+
+.online-description {
+    text-align: center;
+    color: #534C64;
+    font-size: 18px;
+    font-family: Work Sans;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+    padding: 1rem;
+}
+
+.games-images {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.gcd {
+    display: flex;
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    padding-top: 1rem;
+}
+
+.gcd1{
+    padding-left: 3.5rem;
+}
+.gcd2{
+    padding-left: 2.6rem;
+}
+.gcd3{
+    padding-left: 4rem;
+}
+
+.gcd4 {
+    padding-left: 11rem;
+}
+
+
+/* play section */
+
