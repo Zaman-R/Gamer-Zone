@@ -216,26 +216,126 @@ body {
 .gcd {
     display: flex;
     color: #534C64;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 500;
     line-height: 30px;
     padding-top: 1rem;
+    justify-content: space-around;
 }
 
-.gcd1{
+/* .gcd1{
     padding-left: 3.5rem;
 }
 .gcd2{
-    padding-left: 2.6rem;
+    padding-left: 4.3rem;
 }
 .gcd3{
-    padding-left: 4rem;
+    padding-left: 6.4rem;
 }
 
 .gcd4 {
-    padding-left: 11rem;
-}
+    padding-left: 13.5rem;
+} */
+
 
 
 /* play section */
+
+.play {
+    margin-top: 3rem;
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-right {
+    height: 635px;
+    padding-left: 50px;
+}
+
+.play-right1 {
+    display: block;
+}
+
+.play-right2 {
+    position: relative;
+    bottom: 200px;
+    left: -120px;
+}
+
+.play-title {
+    text-align: right;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    word-wrap: break-word;
+}
+
+.pl-t {
+    color: #F948B2;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    word-wrap: break-word;
+}
+
+.ds {
+    text-align: right;
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+}
+
+.play-description div {
+    margin: 100px;
+    max-width: 430px;
+}
+
+
+/* games section  */
+
+.games-section{
+    margin-top: 20rem;
+
+}
+.game{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 10px 0px;
+    border-radius: 50px;
+    background: #FFF;
+    gap: 6%;
+    width: 20%;
+}
+.games-section .all-games{
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    /* gap: 1px; */
+}
+.g-name{}
+.game img{
+    width: 50px;
+    height: auto;
+}
+.game:hover{
+    border: 1px solid #FF42A5;
+    background: #FF42A5;
+    background-clip: text;
+    padding: 10px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 17%;
+}
+
 
