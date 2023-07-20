@@ -201,21 +201,14 @@ body {
 }
 
 .games-images {
-    padding: 1rem;
+    /* padding: 1rem; */
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 
 .gcd {
-    display: flex;
-    color: #534C64;
-    font-size: 17px;
-    font-weight: 500;
-    line-height: 30px;
-    padding-top: 1rem;
-    margin-left: 5%;
-    width: 90%;
+   margin-top: 10px;
 }
 
 
@@ -224,7 +217,7 @@ body {
     opacity: 1;
 }
 
-.gcd1 {
+/* .gcd1 {
     padding-right: 3.5rem;
 }
 
@@ -234,7 +227,7 @@ body {
 
 .gcd3 {
     padding-right: 8rem;
-}
+} */
 
 
 
