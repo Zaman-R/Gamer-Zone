@@ -398,30 +398,40 @@ body {
         align-items: center;
         justify-content: center;
     }
-    .play-title{
+    .options{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .play-title {
         text-align: center;
         padding: 10%;
         font-size: 48px;
         line-height: 60px;
     }
-    .play-right{
+
+    .play-right {
         display: flex;
         flex-direction: column;
     }
-    .play-right1{
-        width: 350px;
+
+    .play-right1 {
+        width: 370px;
         height: 700px;
     }
-    .play-right2{
+
+    .play-right2 {
         width: 180px;
         height: 300px;
         top: -140px;
-        left: -35px;
-        
+        left: -25px;
+
     }
-    .ds{
+
+    .ds {
         text-align: center;
     }
+
     .nav-icons {
         margin-bottom: 10%;
     }
@@ -470,9 +480,17 @@ body {
         padding: 7%;
     }
 
+    .game {
+        width: 50%;
+    }
 
-
-
+    .game:hover {
+        width: 41%;
+    }
+   
+    .play-right{
+        width: 100%;
+    }
 
 
 }
